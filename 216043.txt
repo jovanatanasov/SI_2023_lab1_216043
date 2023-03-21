@@ -1,0 +1,54 @@
+mkdir SI_2023_lab1_216043 - kreiranje direktorium
+cd SI_2023_lab1_216043 - vleguvanje vo direktoriumot
+git init - kreiranje lokalno repo
+git remote add origin https://github.com/jovanatanasov/SI_2023_lab1_216043.git - povrzuvanje na lokalnoto repo so remote repoto
+nano README.md - kreiranje na README.md fajl i otvaranje na istiot za editiranje
+git add README.md - od untracked vo stage
+git commit -m "Initial commit" - prv commit, bez konflikti
+nano SILab1.java - kreiranje na SILab1.java fajl i otvaranje na istiot za editiranje
+git add SILab1.java - od untracked vo stage
+git commit -m "Add java class" - vtor commit vo koj se dodava Java klasa
+git branch bug1 - kreiranje granka bug1
+git branch bug2 - kreiranje granka bug2 
+git branch bug3 - kreiranje granka bug3
+git checkout bug1 - prefrlanje na grankata bug1
+nano SILab1.java - otvaranje i editiranje na SILab1.java i sreduvanje na greskata
+git add SILab1.java - povtorno dodavanje vo stage
+git commit -m "Fix wrong loop for reading" - tret commit vo koj e navedeno sto e popraveno
+git checkout bug2 - prefrlanje na granka2 
+nano SILab1.java - otvaranje i editiranje na SILab1.java i sreduvanje na greskata
+git add SILab1.java - dodavanje vo stage
+git commit -m "Fix wrong condition in filterOddNumbers" - cetvrt commit vo koj e navedeno sto e popraveno
+git checkout bug3 - prefrlanje na granka 3
+nano SILab1.java - otvaranje i editiranje na SILab1.java i sreduvanje na greskata
+git add SILab1.java - dodavanje vo stage 
+git commit -m "Fix method sumEvenNumbers" - petti commit vo koj e navedeno sto e popraveno
+git push --all origin - sinhronizacija so remote repoto
+git checkout master - prefrlanje na grankata master
+git merge bug1 - merge na bug1 grankata bez nikakov konflikt
+git push - sinhronizacija so remote repoto
+git merge bug2 - merge na bug1 grankata bez nikakov konflikt
+git push - sinhronizacija so remote repoto
+git checkout bug3 - prefrlanje na grankata bug3 
+git rebase master - spojuvanje so master grankata
+git checkout master - prefrlanje na master grankata
+git merge bug3 - merge na bug1 grankata bez nikakov konflikt
+git push - sinhronizacija so remote repoto
+nano logs.txt - kreiranje i otvaranje na logs.txt fajl
+git add logs.txt - dodavanje na stage 
+git add 216043.txt - dodavanje na stage 
+git commit -m "Final commit" - posleden commit 
+git push -u origin master - sinhronizacija so remote repoto
+git push origin bug1 - sinhronizacija so remote repoto
+git push origin bug2 - sinhronizacija so remote repoto
+git push origin bug3 - obid za sinhronizacija so remote repoto
+git push --force origin bug3 - sinhronizacija so remote repoto so --force komandata
+
+
+
+
+
+
+
+
+
