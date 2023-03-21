@@ -1,0 +1,16 @@
+commit ed460ed8893bd58cef3a4ae3e10018d1c2e6c87d (bug3)
+Author: AtanasovJovan <jovanatanasov12345@gmail.com>
+Date:   Mon Mar 20 23:27:51 2023 +0100
+
+    Fix method sumEvenNumbers
+
+commit ede6f7f8073a9b84b8de0842e1fc5c3295f49e10
+Merge: 5dca1b9 33172fb
+Author: AtanasovJovan <jovanatanasov12345@gmail.com>
+Date:   Tue Mar 21 15:20:06 2023 +0100
+
+    Merge branch 'bug2'
+
+commit 33172fbb415b14f55a45142f893bfaebd279b186 (origin/bug2, bug2)
+Author: AtanasovJovan <jovanatanasov12345@gmail.com>
+Date:   Mon Mar 20 23:24:00 2023 +0100
